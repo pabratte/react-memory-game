@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 
 .sour-gummy {
   font-family: "Sour Gummy", serif;
@@ -15,20 +15,24 @@
   background-image: url("assets/img/cat-7180716_1920.png");
   background-size: cover;
   background-position: center;
-  background-color: #FFE4E1;
+  background-color: #ffe4e1;
 }
 
 h1 {
-  color: #DB7093;
+  color: #db7093;
   font-size: 40px;
-  text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+  text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
 }
 
 .App {
   text-align: center;
 }
 
-.board{
+.board {
   display: grid;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: repeat(4, 100px);
@@ -43,7 +47,7 @@ h1 {
   height: 100%;
   font-size: 100px;
   text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition-property: transform;
   transition-duration: 0.5s;
   transform-style: preserve-3d;
@@ -67,7 +71,7 @@ h1 {
   background-image: url("assets/img/background-7245939_640.png");
   background-size: cover;
   background-blend-mode: multiply;
-  background-color: #FF69B4;
+  background-color: #ff69b4;
   transition-property: filter;
   transition-duration: 0.2s;
 }
@@ -103,50 +107,49 @@ h1 {
 }
 
 .card-1 {
-  background-color: #FF6F61;
+  background-color: #ff6f61;
   background-size: cover;
   background-image: url("assets/img/1.png");
 }
 
 .card-2 {
-  background-color: #FFB347;
+  background-color: #ffb347;
   background-size: cover;
   background-image: url("assets/img/2.png");
 }
 
 .card-3 {
-  background-color: #FFD700;
+  background-color: #ffd700;
   background-size: cover;
   background-image: url("assets/img/3.png");
 }
 
 .card-4 {
-  background-color: #9ACD32;
+  background-color: #9acd32;
   background-size: cover;
   background-image: url("assets/img/4.png");
 }
 
 .card-5 {
-  background-color: #6495ED;
+  background-color: #6495ed;
   background-size: cover;
   background-image: url("assets/img/5.png");
 }
 
 .card-6 {
-  background-color: #9370DB;
+  background-color: #9370db;
   background-size: cover;
   background-image: url("assets/img/6.png");
 }
 
 .card-7 {
-  background-color: #FF69B4;
+  background-color: #ff69b4;
   background-size: cover;
   background-image: url("assets/img/7.png");
 }
 
 .card-8 {
-  background-color: #40E0D0;
+  background-color: #40e0d0;
   background-size: cover;
   background-image: url("assets/img/8.png");
 }
-
