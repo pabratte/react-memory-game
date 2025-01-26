@@ -20,7 +20,7 @@
 
 h1 {
   color: #db7093;
-  font-size: 40px;
+  font-size: 42px;
   text-shadow:
     -2px -2px 0 white,
     2px -2px 0 white,
@@ -33,13 +33,25 @@ h1 {
 }
 
 .board {
+  @media (min-width: 300px) and (min-width: 300px) {
+    --grid-cell-size: 70px;
+    --grid-gap-size: 5px;
+  }
+  @media (min-width: 430px) and (min-width: 430px) {
+    --grid-cell-size: 100px;
+    --grid-gap-size: 10px;
+  }
+  @media (min-width: 630px) and (min-width: 630px) {
+    --grid-cell-size: 150px;
+    --grid-gap-size: 10px;
+  }
   display: grid;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: repeat(4, 100px);
-  grid-gap: 10px;
-  grid-column-gap: 10px;
-  width: 430px;
   margin: 0 auto;
+  grid-template-columns: repeat(4, var(--grid-cell-size));
+  grid-template-rows: repeat(4, var(--grid-cell-size));
+  grid-gap: var(--grid-gap-size);
+  grid-column-gap: var(--grid-gap-size);
+  width: calc(var(--grid-cell-size) * 4 + var(--grid-gap-size) * 3);
 }
 
 .card {
@@ -152,4 +164,29 @@ h1 {
   background-color: #40e0d0;
   background-size: cover;
   background-image: url("assets/img/8.png");
+}
+
+footer {
+  font-size: 18px;
+  color: #db7093;
+  font-weight: 300;
+  font-family: "Sour Gummy", serif;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+footer p {
+  margin: 5px;
+}
+
+footer a {
+  color: #db7093;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+footer a:hover {
+  color: #ff69b4;
 }
