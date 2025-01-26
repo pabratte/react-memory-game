@@ -190,3 +190,50 @@ footer a {
 footer a:hover {
   color: #ff69b4;
 }
+
+.win-page h2 {
+  font-size: 64px;
+  color: #db7093;
+  text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+}
+
+.win-page h3 {
+  font-size: 128px;
+  color: #db7093;
+  text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+    margin: 0;
+}
+
+.win-page h4 {
+  font-size: 32px;
+  color: #db7093;
+  text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+    margin: 0;
+}
+
+.win-page button {
+  font-size: 32px;
+  color: white;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 40px;
+  margin: 80px;
+  cursor: pointer;
+}
+
+.win-page button:hover {
+  background-color: #db7093;
+}
