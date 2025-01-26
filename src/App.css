@@ -33,15 +33,15 @@ h1 {
 }
 
 .board {
-  @media (min-width: 300px) and (min-width: 300px) {
+  @media (min-width: 300px) and (min-height: 300px) {
     --grid-cell-size: 70px;
     --grid-gap-size: 5px;
   }
-  @media (min-width: 430px) and (min-width: 430px) {
+  @media (min-width: 450px) and (min-height: 620px) {
     --grid-cell-size: 100px;
     --grid-gap-size: 10px;
   }
-  @media (min-width: 630px) and (min-width: 630px) {
+  @media (min-width: 650px) and (min-height: 830px) {
     --grid-cell-size: 150px;
     --grid-gap-size: 10px;
   }
